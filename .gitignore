@@ -144,3 +144,5 @@ env/
 data.zip
 mlruns/
 running_logs.log
+PetImages/
+.docx
