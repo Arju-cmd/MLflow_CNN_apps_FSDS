@@ -143,6 +143,11 @@ env/
 
 data.zip
 mlruns/
-running_logs.log
+logs/running_logs.log
 PetImages/
 .docx
+data/MSR-LA - 3467.docx
+data/data.jpg
+data/data/*.jpg
+data/readme[1].txt
+logs/running_logs.log
