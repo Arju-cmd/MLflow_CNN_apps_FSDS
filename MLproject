@@ -4,6 +4,10 @@ conda_env: conda.yaml
 
 entry_points:
   main:
-    command: "python main.py"
+    command: "python --version"
 
 get_data:
+  command: "python src/stage_01_get_data.py"
+
+base_model_creation:
+  command: "python src/stage_02_base_model_creation.py"
