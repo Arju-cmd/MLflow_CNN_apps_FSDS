@@ -46,8 +46,10 @@ def main(config_path, params_path):
     metrics= params["metrics"]
     )
 
-    path_to_model = os.path.join(config["data"]["local_dir"],config["data"]["model_dir"] )
-    create_directories([path_to_model])
+    path_to_model_dir = os.path.join(config["data"]["local_dir"],config["data"]["model_dir"] )
+    create_directories([path_to_model_dir])
+    path_to_model = os.path.join(path_to_model_dir, config["data"]["init_model_file"])
+    
     classifier.save(path_to_model)
     logging.info(f" model is saved at : {path_to_model}")
 
