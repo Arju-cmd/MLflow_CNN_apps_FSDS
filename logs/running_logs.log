@@ -1,0 +1,147 @@
+[2022-03-16 09:54:05,848: INFO: main]: 
+********************
+[2022-03-16 09:54:05,848: INFO: main]: >>>>> stage MAIN started <<<<<
+[2022-03-16 09:54:05,858: INFO: main]: main started
+[2022-03-16 09:54:05,862: ERROR: main]: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+Traceback (most recent call last):
+  File "src/main.py", line 30, in <module>
+    main()
+  File "src/main.py", line 21, in main
+    mlflow.run(".","get_data", use_conda=False)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 304, in run
+    synchronous=synchronous,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 99, in _run
+    experiment_id,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\backend\local.py", line 45, in run
+    work_dir = fetch_and_validate_project(project_uri, version, entry_point, params)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\utils.py", line 132, in fetch_and_validate_project
+    project.get_entry_point(entry_point)._validate_parameters(parameters)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\_project_spec.py", line 135, in get_entry_point
+    "{2}".format(entry_point, list(self._entry_points.keys()), list(ext_to_cmd.keys()))
+mlflow.exceptions.ExecutionException: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+[2022-03-16 09:57:39,602: INFO: main]: 
+********************
+[2022-03-16 09:57:39,602: INFO: main]: >>>>> stage MAIN started <<<<<
+[2022-03-16 09:57:39,611: INFO: main]: main started
+[2022-03-16 09:57:39,615: ERROR: main]: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+Traceback (most recent call last):
+  File "src/main.py", line 30, in <module>
+    main()
+  File "src/main.py", line 21, in main
+    mlflow.run(".","get_data", use_conda=False)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 304, in run
+    synchronous=synchronous,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 99, in _run
+    experiment_id,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\backend\local.py", line 45, in run
+    work_dir = fetch_and_validate_project(project_uri, version, entry_point, params)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\utils.py", line 132, in fetch_and_validate_project
+    project.get_entry_point(entry_point)._validate_parameters(parameters)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\_project_spec.py", line 135, in get_entry_point
+    "{2}".format(entry_point, list(self._entry_points.keys()), list(ext_to_cmd.keys()))
+mlflow.exceptions.ExecutionException: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+[2022-03-16 16:20:24,628: INFO: main]: 
+********************
+[2022-03-16 16:20:24,628: INFO: main]: >>>>> stage MAIN started <<<<<
+[2022-03-16 16:20:24,639: INFO: main]: main started
+[2022-03-16 16:20:24,644: ERROR: main]: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+Traceback (most recent call last):
+  File "src/main.py", line 30, in <module>
+    main()
+  File "src/main.py", line 21, in main
+    mlflow.run(".","get_data", use_conda=False)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 304, in run
+    synchronous=synchronous,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 99, in _run
+    experiment_id,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\backend\local.py", line 45, in run
+    work_dir = fetch_and_validate_project(project_uri, version, entry_point, params)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\utils.py", line 132, in fetch_and_validate_project
+    project.get_entry_point(entry_point)._validate_parameters(parameters)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\_project_spec.py", line 135, in get_entry_point
+    "{2}".format(entry_point, list(self._entry_points.keys()), list(ext_to_cmd.keys()))
+mlflow.exceptions.ExecutionException: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+[2022-03-16 16:32:04,323: INFO: main]: 
+********************
+[2022-03-16 16:32:04,323: INFO: main]: >>>>> stage MAIN started <<<<<
+[2022-03-16 16:32:04,334: INFO: main]: main started
+[2022-03-16 16:32:04,337: ERROR: main]: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+Traceback (most recent call last):
+  File "src/main.py", line 30, in <module>
+    main()
+  File "src/main.py", line 21, in main
+    mlflow.run(".","get_data", use_conda=False)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 304, in run
+    synchronous=synchronous,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 99, in _run
+    experiment_id,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\backend\local.py", line 45, in run
+    work_dir = fetch_and_validate_project(project_uri, version, entry_point, params)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\utils.py", line 132, in fetch_and_validate_project
+    project.get_entry_point(entry_point)._validate_parameters(parameters)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\_project_spec.py", line 135, in get_entry_point
+    "{2}".format(entry_point, list(self._entry_points.keys()), list(ext_to_cmd.keys()))
+mlflow.exceptions.ExecutionException: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+[2022-03-16 16:32:49,898: INFO: main]: 
+********************
+[2022-03-16 16:32:49,898: INFO: main]: >>>>> stage MAIN started <<<<<
+[2022-03-16 16:32:49,907: INFO: main]: main started
+[2022-03-16 16:32:49,911: ERROR: main]: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+Traceback (most recent call last):
+  File "src/main.py", line 30, in <module>
+    main()
+  File "src/main.py", line 21, in main
+    mlflow.run(".","get_data", use_conda=False)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 304, in run
+    synchronous=synchronous,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 99, in _run
+    experiment_id,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\backend\local.py", line 45, in run
+    work_dir = fetch_and_validate_project(project_uri, version, entry_point, params)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\utils.py", line 132, in fetch_and_validate_project
+    project.get_entry_point(entry_point)._validate_parameters(parameters)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\_project_spec.py", line 135, in get_entry_point
+    "{2}".format(entry_point, list(self._entry_points.keys()), list(ext_to_cmd.keys()))
+mlflow.exceptions.ExecutionException: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+[2022-03-16 16:42:40,435: INFO: main]: 
+********************
+[2022-03-16 16:42:40,435: INFO: main]: >>>>> stage MAIN started <<<<<
+[2022-03-16 16:42:40,445: INFO: main]: main started
+[2022-03-16 16:42:40,449: ERROR: main]: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+Traceback (most recent call last):
+  File "src/main.py", line 30, in <module>
+    main()
+  File "src/main.py", line 21, in main
+    mlflow.run(".","get_data", use_conda=False)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 304, in run
+    synchronous=synchronous,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 99, in _run
+    experiment_id,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\backend\local.py", line 45, in run
+    work_dir = fetch_and_validate_project(project_uri, version, entry_point, params)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\utils.py", line 132, in fetch_and_validate_project
+    project.get_entry_point(entry_point)._validate_parameters(parameters)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\_project_spec.py", line 135, in get_entry_point
+    "{2}".format(entry_point, list(self._entry_points.keys()), list(ext_to_cmd.keys()))
+mlflow.exceptions.ExecutionException: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+[2022-03-16 16:44:23,987: INFO: main]: 
+********************
+[2022-03-16 16:44:23,987: INFO: main]: >>>>> stage MAIN started <<<<<
+[2022-03-16 16:44:23,996: INFO: main]: main started
+[2022-03-16 16:44:24,001: ERROR: main]: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']
+Traceback (most recent call last):
+  File "src/main.py", line 30, in <module>
+    main()
+  File "src/main.py", line 21, in main
+    mlflow.run(".","get_data", use_conda=False)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 304, in run
+    synchronous=synchronous,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\__init__.py", line 99, in _run
+    experiment_id,
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\backend\local.py", line 45, in run
+    work_dir = fetch_and_validate_project(project_uri, version, entry_point, params)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\utils.py", line 132, in fetch_and_validate_project
+    project.get_entry_point(entry_point)._validate_parameters(parameters)
+  File "C:\Users\arjun\anaconda3\envs\Mlflow1\lib\site-packages\mlflow\projects\_project_spec.py", line 135, in get_entry_point
+    "{2}".format(entry_point, list(self._entry_points.keys()), list(ext_to_cmd.keys()))
+mlflow.exceptions.ExecutionException: Could not find get_data among entry points ['main'] or interpret get_data as a runnable script. Supported script file extensions: ['.py', '.sh']

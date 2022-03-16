@@ -151,3 +151,6 @@ data/data.jpg
 data/data/*.jpg
 data/readme[1].txt
 logs/running_logs.log
+data/data/Thumbs.db
+logs/running_logs.log
+logs/running_logs.log
